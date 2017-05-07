@@ -2,6 +2,6 @@
 
 npm install
 
-npm server2
+npm server
 
 localhost:3012
