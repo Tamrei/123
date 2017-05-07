@@ -1,0 +1,12 @@
+<div class="col-xs-3" style="padding: 0px;">
+    <client-list-container [clients]="contacts" (selectEvent)="selectContact($event)"></client-list-container>
+</div>
+
+<div class="col-xs-9">
+    <client-detailed *ngIf="selectedContact"
+                     [client]="selectedContact"
+    ></client-detailed>
+</div>
+
+
+
